@@ -5,4 +5,6 @@ module projet.demo.demojavafx {
 
     opens projet.demo.demojavafx to javafx.fxml;
     exports projet.demo.demojavafx;
+    exports projet.demo.demojavafx.controller;
+    opens projet.demo.demojavafx.controller to javafx.fxml;
 }
